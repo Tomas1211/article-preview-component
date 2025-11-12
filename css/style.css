@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.article-preview-component {
+  background-color: #fff;
+  max-width: 326px;
+  max-height: 512px;
+}
+.article-preview-component .article-image img {
+  max-height: 200px;
+}
+.article-preview-component .article-text .author-info {
+  display: flex;
+  justify-content: space-between;
+}
+.article-preview-component .article-text .author-info .avatar img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.article-preview-component .article-text .author-info .share-icon img {
+  width: 32px;
+  height: 32px;
+}/*# sourceMappingURL=style.css.map */

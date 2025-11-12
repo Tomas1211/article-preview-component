@@ -1,0 +1,50 @@
+$color-primary: hsl(217, 19%, 35%);
+$color-secondary: hsl(214, 17%, 51%);
+$color-headings: hsl(212, 23%, 69%);
+$color-background: hsl(210, 46%, 95%);
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: $color-background;
+}
+
+.article-preview-component {
+  background-color: #fff;
+  max-width: 326px;
+  max-height: 512px;
+
+  .article-image {
+    img {
+      max-height: 200px;
+    }
+  }
+
+  .article-text {
+    .author-info {
+      display: flex;
+      justify-content: space-between;
+      
+      .avatar {
+        img {
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+        }
+      }
+
+      .share-icon {
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+}
